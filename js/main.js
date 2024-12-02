@@ -10,7 +10,7 @@ Created: Colorib
 'use strict';
 
 (function ($) {
-
+    let mixer; // Declare a global mixer variable
     /*------------------
         Preloader
     --------------------*/
@@ -18,6 +18,9 @@ Created: Colorib
         $(".loader").fadeOut();
         $("#preloder").delay(200).fadeOut("slow");
 
+
+              // Initialize MixItUp on load
+              initializeMixItUp();
         /*------------------
             Product filter
         --------------------*/
@@ -33,6 +36,36 @@ Created: Colorib
             var mixer = mixitup(containerEl);
         }
     });
+
+
+
+    /*------------------
+        Initialize MixItUp
+    --------------------*/
+    function initializeMixItUp() {
+        const containerEl = document.querySelector('.property__gallery');
+        if (containerEl) {
+            // Initialize MixItUp
+            mixer = mixitup(containerEl, {
+                selectors: {
+                    target: '.mix',
+                },
+                animation: {
+                    duration: 300,
+                },
+            });
+        }
+    }
+
+        /*------------------
+        Reinitialize MixItUp
+    --------------------*/
+    window.reinitializeMixItUp = function () {
+        if (mixer) {
+            mixer.destroy(); // Destroy the previous instance
+        }
+        initializeMixItUp(); // Reinitialize MixItUp
+    };
 
     /*------------------
         Background Set

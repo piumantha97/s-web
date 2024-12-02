@@ -58,6 +58,12 @@ function loadProducts(category, subcategory) {
     //         enabled: true
     //     }
     // });
+
+         // Reinitialize MixItUp after loading products
+         if (window.reinitializeMixItUp) {
+            window.reinitializeMixItUp();
+        }
+        
     $('.image-popup').magnificPopup({
         type: 'image'
     });
