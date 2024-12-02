@@ -268,4 +268,36 @@ Created: Colorib
         $(this).addClass('active');
     });
 
+
+
+
+    $(document).ready(function () {
+        const containerEl = document.querySelector('.property__gallery');
+    
+        if (containerEl) {
+            window.mixer = mixitup(containerEl, {
+                selectors: {
+                    target: '.mix',
+                },
+                animation: {
+                    duration: 300,
+                },
+            });
+    
+            // Store a reinitialize function globally
+            window.reinitializeMixItUp = function () {
+                mixer.destroy(); // Destroy previous instance
+                window.mixer = mixitup(containerEl, {
+                    selectors: {
+                        target: '.mix',
+                    },
+                    animation: {
+                        duration: 300,
+                    },
+                });
+            };
+        }
+    });
+    
+
 })(jQuery);
