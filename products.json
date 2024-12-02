@@ -1,0 +1,118 @@
+{
+    "women": {
+        "coats": [
+            {
+                "name": "Furry hooded parka",
+                "price": 59.0,
+                "image": "img/shop/shop-1.jpg",
+                "rating": 5
+            },
+            {
+                "name": "Long trench coat",
+                "price": 89.0,
+                "image": "img/shop/shop-2.jpg",
+                "rating": 4
+            }
+        ],
+        "jackets": [
+            {
+                "name": "Classic leather jacket",
+                "price": 120.0,
+                "image": "img/shop/crustal1-removebg-preview.png",
+                "rating": 5
+            }
+        ]
+    },
+    "men": {
+        "coats": [
+            {
+                "name": "Wool blend coat",
+                "price": 99.0,
+                "image": "img/shop/shop-4.jpg",
+                "rating": 5
+            }
+        ]
+    },
+    "religious": {
+        "lord-buddha-statue": [
+            {
+                "name": "Wool blend coat",
+                "price": 99.0,
+                "image": "img/shop/B27.jpg",
+                "rating": 5
+            },
+            {
+                "name": "Wool blend coat",
+                "price": 99.0,
+                "image": "img/shop/B28.jpg",
+                "rating": 5
+            }
+            
+        ],
+        "karadu": [
+            {
+                "name": "Wool blend coat",
+                "price": 99.0,
+                "image": "img/shop/B26.jpg",
+                "rating": 5
+            },
+            {
+                "name": "Wool blend coat",
+                "price": 99.0,
+                "image": "img/shop/B32.jpg",
+                "rating": 5
+            }
+            
+        ]
+    },
+    "other": {
+        "pahan": [
+            {
+                "name": "Wool blend coat",
+                "price": 99.0,
+                "image": "img/shop/B17.jpg",
+                "rating": 5
+            },
+            {
+                "name": "Wool blend coat",
+                "price": 99.0,
+                "image": "img/shop/B18.jpg",
+                "rating": 5
+            },
+            {
+                "name": "Wool blend coat",
+                "price": 99.0,
+                "image": "img/shop/B19.jpg",
+                "rating": 5
+            },
+            {
+                "name": "Wool blend coat",
+                "price": 99.0,
+                "image": "img/shop/B20.jpg",
+                "rating": 5
+            },
+            {
+                "name": "Wool blend coat",
+                "price": 99.0,
+                "image": "img/shop/B21.jpg",
+                "rating": 5
+            }
+            
+        ],
+        "vass": [
+            {
+                "name": "Wool blend coat",
+                "price": 99.0,
+                "image": "img/shop/B26.jpg",
+                "rating": 5
+            },
+            {
+                "name": "Wool blend coat",
+                "price": 99.0,
+                "image": "img/shop/B32.jpg",
+                "rating": 5
+            }
+            
+        ]
+    }
+}
