@@ -1,34 +1,54 @@
 {
-    "women": {
-        "coats": [
+    "gifts": {
+        "boxes": [
             {
-                "name": "Furry hooded parka",
+                "name": "Punkalas",
                 "price": 59.0,
-                "image": "img/shop/shop-1.jpg",
+                "image": "img/shop/B10.jpg",
                 "rating": 5
             },
             {
-                "name": "Long trench coat",
+                "name": "Thunpath rana",
                 "price": 89.0,
-                "image": "img/shop/shop-2.jpg",
+                "image": "img/shop/B14.jpg",
+                "rating": 4
+            },
+            {
+                "name": "Silver Elephant",
+                "price": 89.0,
+                "image": "img/shop/B13.jpg",
                 "rating": 4
             }
         ],
-        "jackets": [
+        "crystal": [
             {
-                "name": "Classic leather jacket",
+                "name": "Crystal 1",
                 "price": 120.0,
-                "image": "img/shop/crustal1-removebg-preview.png",
+                "image": "img/shop/B11.jpg",
+                "rating": 5
+            },
+            {
+                "name": "Crystal 2",
+                "price": 120.0,
+                "image": "img/shop/B15.jpg",
+                "rating": 5
+            }
+        ],
+        "velvets": [
+            {
+                "name": "Velvet Box",
+                "price": 120.0,
+                "image": "img/shop/B9.jpg",
                 "rating": 5
             }
         ]
     },
-    "men": {
-        "coats": [
+    "hinges": {
+        "hinges": [
             {
                 "name": "Wool blend coat",
                 "price": 99.0,
-                "image": "img/shop/shop-4.jpg",
+                "image": "img/shop/B6jpg",
                 "rating": 5
             }
         ]

@@ -14,7 +14,7 @@
         initializeMixItUp();
 
         // Load default category and subcategory
-        loadProducts('women', 'coats');
+        loadProducts('gifts', 'boxes');
     });
 
     /*------------------
@@ -72,7 +72,8 @@
             success: function (data) {
                 const categoryData = data[category]; // Get category data
                 if (!categoryData || !categoryData[subcategory]) {
-                    alert("No products found for this category!");
+                    console.log(categoryData);
+                    // alert("No products found for this category!",data);
                     return;
                 }
 

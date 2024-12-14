@@ -25,7 +25,7 @@ Created: Colorib
             Product filter
         --------------------*/
           // Load default category and subcategory
-    loadProducts('women', 'coats');
+    loadProducts('gifts', 'boxes');
 
         $('.filter__controls li').on('click', function () {
             $('.filter__controls li').removeClass('active');
