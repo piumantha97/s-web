@@ -2,33 +2,33 @@
     "gifts": {
         "boxes": [
             {
-                "name": "Punkalas",
-                "price": 59.0,
+                "name": "GB-10",
+                "price": 8500.0,
                 "image": "img/shop/B10.jpg",
                 "rating": 5
             },
             {
-                "name": "Thunpath rana",
-                "price": 89.0,
+                "name": "GB-50",
+                "price": 10000.0,
                 "image": "img/shop/B14.jpg",
                 "rating": 4
             },
             {
-                "name": "Silver Elephant",
-                "price": 89.0,
+                "name": "GBSE-010",
+                "price": 13000.0,
                 "image": "img/shop/B13.jpg",
                 "rating": 4
             }
         ],
         "crystal": [
             {
-                "name": "Crystal 1",
+                "name": "CRS 111",
                 "price": 120.0,
                 "image": "img/shop/B11.jpg",
                 "rating": 5
             },
             {
-                "name": "Crystal 2",
+                "name": "CRS 112",
                 "price": 120.0,
                 "image": "img/shop/B15.jpg",
                 "rating": 5
@@ -36,7 +36,7 @@
         ],
         "velvets": [
             {
-                "name": "Velvet Box",
+                "name": "VB-010",
                 "price": 120.0,
                 "image": "img/shop/B9.jpg",
                 "rating": 5
@@ -46,7 +46,7 @@
     "hinges": {
         "hinges": [
             {
-                "name": "Wool blend coat",
+                "name": "Om Lamp",
                 "price": 99.0,
                 "image": "img/shop/B6jpg",
                 "rating": 5
@@ -56,14 +56,14 @@
     "religious": {
         "lord-buddha-statue": [
             {
-                "name": "Wool blend coat",
-                "price": 99.0,
+                "name": "LB-018",
+                "price": 25000.0,
                 "image": "img/shop/B27.jpg",
                 "rating": 5
             },
             {
-                "name": "Wool blend coat",
-                "price": 99.0,
+                "name": "LBI-015",
+                "price": 15000.0,
                 "image": "img/shop/B28.jpg",
                 "rating": 5
             }
@@ -71,14 +71,14 @@
         ],
         "karadu": [
             {
-                "name": "Wool blend coat",
-                "price": 99.0,
+                "name": "KWS",
+                "price": 30000.0,
                 "image": "img/shop/B26.jpg",
                 "rating": 5
             },
             {
-                "name": "Wool blend coat",
-                "price": 99.0,
+                "name": "KKK",
+                "price": 15000.0,
                 "image": "img/shop/B32.jpg",
                 "rating": 5
             }
@@ -88,46 +88,40 @@
     "other": {
         "pahan": [
             {
-                "name": "Wool blend coat",
+                "name": "10 inch Om Lamp",
                 "price": 99.0,
                 "image": "img/shop/B17.jpg",
                 "rating": 5
             },
             {
-                "name": "Wool blend coat",
+                "name": "KPU-12",
                 "price": 99.0,
                 "image": "img/shop/B18.jpg",
                 "rating": 5
             },
             {
-                "name": "Wool blend coat",
+                "name": "KPU-10",
                 "price": 99.0,
                 "image": "img/shop/B19.jpg",
                 "rating": 5
             },
             {
-                "name": "Wool blend coat",
+                "name": "KPU-18",
                 "price": 99.0,
                 "image": "img/shop/B20.jpg",
-                "rating": 5
-            },
-            {
-                "name": "Wool blend coat",
-                "price": 99.0,
-                "image": "img/shop/B21.jpg",
                 "rating": 5
             }
             
         ],
         "vass": [
             {
-                "name": "Wool blend coat",
+                "name": "Om Lamp",
                 "price": 99.0,
                 "image": "img/shop/B26.jpg",
                 "rating": 5
             },
             {
-                "name": "Wool blend coat",
+                "name": "Om Lamp",
                 "price": 99.0,
                 "image": "img/shop/B32.jpg",
                 "rating": 5

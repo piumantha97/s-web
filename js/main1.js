@@ -105,7 +105,7 @@
                                     <i class="fa fa-star"></i>
                                     <i class="fa fa-star"></i>
                                 </div>
-                                <div class="product__price">$${product.price.toFixed(2)}</div>
+                                <div class="product__price">Rs${product.price.toFixed(2)}</div>
                             </div>
                         </div>
                     </div>`;
